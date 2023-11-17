@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.audio-visualizer {
+    z-index: -1;
+  }
