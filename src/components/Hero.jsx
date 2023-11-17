@@ -1,7 +1,6 @@
 import { SlEnvolopeLetter } from "react-icons/sl";
 import { AiFillStar } from "react-icons/ai";
 import { LiaStarHalfSolid } from "react-icons/lia";
-import Typed from "react-typed";
 
 const Hero = () => {
   return (
@@ -9,15 +8,7 @@ const Hero = () => {
       <div className="max-w-[1240px] mx-auto text-center space-y-3">
         <div className="text-4xl md:text-6xl font-black not-italic font-serif text-[#E8FFF5] leading-none ">
           We make great digital products for <br />{" "}
-          <span className="text-[#01F28D]">
-            <Typed
-              strings={["Innovative", "Interesting", "Growing"]}
-              typeSpeed={100}
-              loop={true}
-              backSpeed={100}
-            />
-          </span>{" "}
-          brands.
+          <span className="text-[#01F28D]"></span> brands.
         </div>
         <h1 className="text-[#D1FFEB] text-[16px] md:text-[23px] px-6 md:px-0 py-2 md:py-3 leading-5 font-normal non-italic tracking-wide">
           Get your desired design services from our talented designers,
